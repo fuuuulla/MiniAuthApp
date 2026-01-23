@@ -42,18 +42,7 @@
             border-radius: 5px;
             margin: 20px 0;
         }
-        .logout-btn {
-            display: block;
-            width: 200px;
-            margin: 30px auto;
-            padding: 12px;
-            background: #e74c3c;
-            color: white;
-            text-align: center;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 16px;
-        }
+        
         .logout-btn:hover {
             background: #c0392b;
         }
@@ -74,7 +63,7 @@
             <p><strong>Date de connexion :</strong> <%= new java.util.Date() %></p>
         </div>
         
-        <a href="logout.jsp" class="logout-btn">🚪 Se déconnecter</a>
+        
     </div>
 </body>
 </html>
